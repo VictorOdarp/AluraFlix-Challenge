@@ -1,0 +1,60 @@
+
+.btnDeletar{
+  background-color: #add8e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnDeletar:hover {
+  background-color: #d10303; /* Cor mais escura no hover */
+}
+
+.video {
+  border:2px solid #add8e6;
+}
+
+.btnEditar {
+  background-color: #023802;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnEditar:hover {
+  background-color: #026502; /* Cor mais escura no hover */
+}
+
+.carousel-container {
+  overflow: hidden; /* Esconde os itens fora da área visível */
+  width: 100%;
+  position: relative;
+  cursor: grab; /* Cursor de arrasto */
+}
+
+.carousel-container:active {
+  cursor: grabbing; /* Cursor ao arrastar */
+}
+
+.carousel-track {
+  display: flex;
+  gap: 16px;
+  transition: transform 0.3s ease-in-out; /* Suavidade ao parar o arrasto */
+}
+
+.video-item {
+  flex: 0 0 300px; /* Cada vídeo tem uma largura fixa */
+  scroll-snap-align: start; /* Alinha os itens ao parar o scroll */
+}
+
+
+/* CELULAR */
+@media (max-width: 767px) {
+.tituloPequeno{
+  font-size: 17px;
+  width: 110px;
+  height: 40px;
+}
+
+
+
+}

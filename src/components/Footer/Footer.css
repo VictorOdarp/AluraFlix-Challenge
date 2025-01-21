@@ -1,0 +1,30 @@
+
+.containerFooter{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+  background-color: #000;
+  border-top: 1px solid #add8e6;
+}
+
+.logoFooter {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #add8e6;
+  font-weight: 600;
+ 
+}
+.containerFooter p {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+
+@media (max-width: 767px){
+.logoFooter{
+  font-size: 20px;
+}
+
+}

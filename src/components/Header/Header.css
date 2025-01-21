@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    height: 80px;
+    border-bottom: 1px solid #add8e6;
+    border-top: 1px solid #add8e6;
+  }
+  
+  .logoHeader {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #add8e6;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+   
+  }
+  
+  .header-button {
+    background-color: #add8e6;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-decoration: none;
+  }
+  
+  .header-button:hover {
+    background-color: #add8e6;
+  }
+
+
+
+  /* celular */ 
+  @media (max-width: 767px){
+    .header .logoHeader{
+      font-size: 20px;
+    }
+
+    .header-button{
+      font-size: 12px;
+    }
+
+
+  }

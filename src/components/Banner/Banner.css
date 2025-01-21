@@ -1,0 +1,97 @@
+.bannerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  height: 500px;
+  width: 100%;
+  border-radius: 10p;
+  box-shadow: inset 0 10px 15px -5px rgba(223, 0, 86, 0.5),
+    /* Sombra interna em cima */ inset 0 -10px 15px -5px rgba(223, 0, 86, 0.5); /* Sombra interna embaixo */
+  background-color: #000;
+  color: #fff;
+}
+
+.bannerContainer .bannerContainerItens {
+  width: 1140px;
+}
+.bannerContainer .bannerContainerItens .titulo {
+  font-size: 40px;
+  text-align: center;
+
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.bannerContainer .bannerContainerItens .subtitulo {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.bannerContainer .bannerContainerItens .descricao {
+  font-size: 16px;
+  text-align: justify;
+  width: 90%;
+}
+
+/* RESPONSIVIDADE PARA TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bannerContainer {
+    flex-direction: column;
+  }
+  .bannerContainerItens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bannerContainer .bannerContainerItens .titulo {
+    width: 150px;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .bannerContainer .bannerContainerItens .subtitulo {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+  .bannerContainer .bannerContainerItens .descricao {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Estilos para celulares */
+  .bannerContainer {
+    flex-direction: column;
+  }
+  .bannerContainerItens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bannerContainer .bannerContainerItens .titulo {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+  .bannerContainer .bannerContainerItens .subtitulo {
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+
+  .bannerContainer .bannerContainerItens .descricao {
+    display: none;
+  }
+}
