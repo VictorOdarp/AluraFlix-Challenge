@@ -1,6 +1,6 @@
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/aluraflix.git
+git clone https://github.com/seu-usuario/AluraFlix-Challenge.git
 
 npm install
 
